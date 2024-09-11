@@ -5,7 +5,8 @@ The simplest may be to upload this repository to Overleaf and to let their web
 interface do the rest.
 
 There are also various tools for building latex documents locally.
-You may consider use `latexmk` as a relatively easy solution.
+To get started quickly, tou may consider use `latexmk` as a relatively easy
+solution.
 On Ubuntu, you can install latexmk with the command:
 ```
 sudo apt install latexmk
@@ -17,11 +18,11 @@ sudo apt install texlive-full
 
 Then to build continuously with a previewer:
 ```
-latexmk -pvc assignment_template.tex
+latexmk -pdf -pvc assignment_template.tex
 ```
 If you wish to use another viewer:
 ```
-latexmk -pvc -view=none
+latexmk -pdf -pvc -view=none
 ```
 
 # Preparing your assignment

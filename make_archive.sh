@@ -2,4 +2,4 @@
 
 mkdir -p archive
 
-git archive --prefix="autonomous_perception_template/" --output archive/autonomous_perception_assignment_template.tar.gz main
+git archive --prefix="planning_for_perception_assignment_template/" --output archive/planning_for_perception_assignment_template.tar.gz main

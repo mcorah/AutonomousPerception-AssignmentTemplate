@@ -1,6 +1,8 @@
 *~
 fig/svgs/*
 
+archive
+
 # latex
 *.pdf
 *.aux*
